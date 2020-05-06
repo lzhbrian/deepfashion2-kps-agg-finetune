@@ -1,4 +1,9 @@
 # Aggregation and Finetuning for Clothes Landmark Detection
+
+__[WIP] Code release is still in preparation, stay tuned.__
+
+
+
 __1st place solution__ for [__CVPR 2020 DeepFashion2 Clothes Landmark Detection Track__](https://competitions.codalab.org/competitions/22966). This repo contains code for the keypoints detector. The object detection part is not contained.
 
 <img src="res/cmp.png" width="50%">
@@ -110,6 +115,8 @@ __1st place solution__ for [__CVPR 2020 DeepFashion2 Clothes Landmark Detection 
         TEST.IMAGE_THRE 0.01 \
         DATASET.TEST_SET validation \
         TEST.FLIP_TEST True
+    
+    ...
     ```
 
 
@@ -120,12 +127,14 @@ __1st place solution__ for [__CVPR 2020 DeepFashion2 Clothes Landmark Detection 
 
 Please cite following if you use the code
 
-```
-@inproceedings{lin2020aggfinetune,
+```tex
+@misc{lin2020aggregation,
     title={Aggregation and Finetuning for Clothes Landmark Detection},
-    author={Lin, Tzu-Heng},
-    booktitle={arXiv},
-    year={2020}
+    author={Tzu-Heng Lin},
+    year={2020},
+    eprint={2005.00419},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
 }
 ```
 
